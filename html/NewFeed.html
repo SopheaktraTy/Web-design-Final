@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/asset/css/NewFeed.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    </script>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <img class="w-40" src="/asset/image/LogoEduLink 2.png" alt="" />
+      </div>
+
+      <div class="nav-right">
+        <div class="search-box">
+          <li class="fa-solid fa-magnifying-glass" style="color: #787878"></li>
+          <input type="text" placeholder="search" />
+        </div>
+        <div class="nav-user-icon online">
+          <img src="/asset/image/Profile-1.jpg" alt="" />
+        </div>
+      
+      </div>
+       <!-- setting menu -->
+       <div class="setting-menu">
+        <div class="user-profile">
+          <img src="/asset/image/Profile-1.jpg" alt="">
+          <div>
+             <p>Ty Sopheaktra</p>
+              <a href="#">See your profile</a>
+          </div>
+       </div>
+      </div>
+    </nav>
+    <div class="container">
+      <!-- left-sidebar  -->
+      <div class="left-sidebar">
+        <div class="imp-links"> 
+          <a href="#"><i class="fa-solid fa-newspaper" style="color: #3dcab1;"></i> Latest News</a>
+          <a href="#"><i class="fa-solid fa-user-group" style="color: #3dcab1;"></i> Friend</a>
+          <a href="#"><i class="fa-solid fa-users" style="color: #3dcab1;"></i> Group</a>
+          <a href="#"><i class="fa-solid fa-shop" style="color: #3dcab1;"></i >Marketplaces</a>
+          <a href="#"><i class="fa-solid fa-book" style="color: #3dcab1;"></i> Books</a>
+          <a href="#"><i class="fa-solid fa-gamepad" style="color: #3dcab1;"></i> Games</a>
+          <a href="#">See more</a>
+        </div>
+        <div class="shortcut-links flex flex-col">
+          <p class="font-light">Your Book</p>
+
+          <a href="#"><img src="/asset/image/1.jpeg" alt="">Html and Css Web design</a>
+          <a href="#"><img src="/asset/image/2.jpg" alt="">UX/UI Design</a>
+          <a href="#"><img src="/asset/image/3.jpg" alt="">Responsive Website Design</a>
+          <a href="#"><img src="/asset/image/4.jpg" alt="">Full Stack Development</a>
+         
+     </div>
+      </div>
+      <!-- main-content -->
+      <div class="main-content">
+       <div class="write-post-container">
+            <div class="user-profile">
+               <img src="/asset/image/Profile-1.jpg" alt="">
+               <div>
+                  <p>Ty Sopheaktra</p>
+                   <small>Public <i class="fa-solid fa-caret-down" style="color: #030303;"></i></small>
+               </div>
+            </div>
+        <div class="post-input-container">
+              <textarea rows="3" id="button" placeholder="What's on your mind, Sopheaktra"></textarea>
+              <div class="add-post-links">
+                <a href="#"><i class="fa-solid fa-video" style="color: #fa0000;"></i>Live Video</i></a>
+                <a href="#"><i class="fa-solid fa-camera" style="color: #03e230;"></i>Photo/Video</a>
+                <a href="#"><i class="fa-regular fa-face-smile" style="color: #fdf50d;"></i>Feeling/Activity</a>
+              </div>
+        </div>
+       </div>
+       <!-- post-container -->
+       <div class="post-container">
+        <div class="post-row">
+          <div class="user-profile">
+            <img src="/asset/image/Profile-1.jpg" alt="">
+            <div>
+               <p>Ty Sopheaktra</p>
+                <span>june 24 2023, 13:40pm</span>
+            </div>
+          </div>
+          <a href=""><i class="fa-solid fa-ellipsis-v " style="color: #030303;"></i></a> 
+        </div>
+        
+        
+        <p class="post-text">Learn How To Make Social Media Website Design Using HTML And CSS | Create Social Network Website <a href="#">#EasyTutorials</a><a href="#">#FreeTutorials</a></p>
+         <img src="/asset/image/post 1.png" class="post-img">
+       
+         <div class="post-row">
+           <div class="activity-icon">
+              <div><i class="fa-solid fa-heart" style="color: #ff0000;"></i>120</div>
+              <div><i class="fa-solid fa-comment" style="color: #0b0b0bbe;"></i>50</div>
+              <div><i class="fa-solid fa-share" style="color: #0b0b0bbe;"></i>2</div>
+             
+           </div>
+           <div class="post-profile-icon">
+           <img src="/asset/image/Profile-1.jpg" alt=""><i class="fa-solid fa-caret-down" style="color: #030303;"></i>
+           </div>
+         </div>
+      </div>
+        <!-- post-container -->
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="/asset/image/Profile-2.jpg" alt="">
+              <div>
+                 <p>Tito Tom</p>
+                  <span>june 24 2023, 14:10pm</span>
+              </div>
+            </div>
+            <a href=""><i class="fa-solid fa-ellipsis-v " style="color: #030303;"></i></a> 
+          </div>
+          
+          
+          <p class="post-text">Nom banh chok is a beloved Cambodian dish, so much so that in English it’s sometimes called simply “Khmer noodles.”</p>
+           <img src="/asset/image/Post 2.jpg" class="post-img">
+         
+           <div class="post-row">
+             <div class="activity-icon">
+                <div><i class="fa-solid fa-heart" style="color: #0b0b0bbe;"></i>120</div>
+                <div><i class="fa-solid fa-comment" style="color: #0b0b0bbe;"></i>50</div>
+                <div><i class="fa-solid fa-share" style="color: #0b0b0bbe;"></i>2</div>
+               
+             </div>
+             <div class="post-profile-icon">
+             <img src="/asset/image/Profile-1.jpg" alt=""><i class="fa-solid fa-caret-down" style="color: #030303;"></i>
+             </div>
+           </div>
+        </div>
+          <!-- post-container -->
+       <div class="post-container">
+        <div class="post-row">
+          <div class="user-profile">
+            <img src="/asset/image/Profile-3.jpg" alt="">
+            <div>
+               <p>Dara Veasna</p>
+                <span>june 24 2023, 14:40pm</span>
+            </div>
+          </div>
+          <a href=""><i class="fa-solid fa-ellipsis-v " style="color: #030303;"></i></a> 
+        </div>
+        
+        
+        <p class="post-text"> The Guinness World Records considers it as the largest religious structure in the world.</p>
+         <img src="/asset/image/Post 3.jpg" class="post-img">
+       
+         <div class="post-row">
+           <div class="activity-icon">
+              <div><i class="fa-solid fa-heart" style="color: #0b0b0bbe;"></i>120</div>
+              <div><i class="fa-solid fa-comment" style="color: #0b0b0bbe;"></i>50</div>
+              <div><i class="fa-solid fa-share" style="color: #0b0b0bbe;"></i>2</div>
+             
+           </div>
+           <div class="post-profile-icon">
+           <img src="/asset/image/Profile-1.jpg" alt=""><i class="fa-solid fa-caret-down" style="color: #030303;"></i>
+           </div>
+         </div>
+      </div>
+       <!-- post-container -->
+       <div class="post-container">
+        <div class="post-row">
+          <div class="user-profile">
+            <img src="/asset/image/Profile-4.jpg" alt="">
+            <div>
+               <p>Ty Sopheaktra</p>
+                <span>june 24 2023, 15:40pm</span>
+            </div>
+          </div>
+          <a href=""><i class="fa-solid fa-ellipsis-v " style="color: #030303;"></i></a> 
+        </div>
+        
+        
+        <p class="post-text">Spring in Switzerland, view, town, pier, bonito, Switzerland, spring, lake, freshness, boat, serenity, blossoms, flowers, village, blooming, Swiss, coast, </p>
+         <img src="/asset/image/Post 4.jpg" class="post-img">
+       
+         <div class="post-row">
+           <div class="activity-icon">
+              <div><i class="fa-solid fa-heart" style="color: #0b0b0bbe;"></i>120</div>
+              <div><i class="fa-solid fa-comment" style="color: #0b0b0bbe;"></i>50</div>
+              <div><i class="fa-solid fa-share" style="color: #0b0b0bbe;"></i>2</div>
+             
+           </div>
+           <div class="post-profile-icon">
+           <img src="/asset/image/Profile-1.jpg" alt=""><i class="fa-solid fa-caret-down" style="color: #030303;"></i>
+           </div>
+         </div>
+      </div>
+      <button type="button" class="load-more-btn">Load More</button>
+      </div>
+      <!-- right-sidebar -->
+      <div class="right-sidebar">
+         <div class="sidebar-title">
+           <h4>Advertisement</h4>
+           <a href="#">Close</a>
+         </div>
+         <img src="/asset/image/ads 1.png" alt="" class="sidebar-ads">
+         <img src="/asset/image/ads 2.png" alt="" class="sidebar-ads">
+
+         <div class="sidebar-title">
+          <h4>Conversation</h4>
+          <a href="#">Hide Chat</a>
+         </div>
+         <!-- Profile -->
+           <div class="online-list">
+            <div class="online">
+              <img src="/asset/image/Profile-2.jpg" alt="">
+            </div>
+            <p>Tito Tom</p>
+           </div>
+         <!-- Profile -->
+         <div class="online-list">
+          <div class="online">
+            <img src="/asset/image/Profile-3.jpg" alt="">
+          </div>
+          <p>Dara Veasna</p>
+         </div>
+         <!-- Profile -->
+         <div class="online-list">
+          <div class="online">
+            <img src="/asset/image/Profile-4.jpg" alt="">
+          </div>
+          <p>Long Sen</p>
+         </div>
+         <!-- Profile -->
+         <div class="online-list">
+          <div class="online">
+            <img src="/asset/image/Profile-5.jpg" alt="">
+          </div>
+          <p>Hongly Ty</p>
+         </div>
+         <!-- Profile -->
+         <div class="online-list">
+          <div class="online">
+            <img src="/asset/image/Profile-6.jpg" alt="">
+          </div>
+          <p>Sreyroth Teang </p>
+         </div>
+         <!-- Profile -->
+         <div class="online-list">
+          <div class="online">
+            <img src="/asset/image/Profile-7.jpg" alt="">
+          </div>
+          <p>Sorporn Sovortey</p>
+         </div>
+        
+         </div>
+         </div>
+         
+      </div>
+    </div>
+
+  <div class="footer">
+  <p>&copy; 2023 Edulink - All Rights Reserved.</p>
+  </div>
+
+  
+  </body>
+    
+</html>
+
